@@ -121,3 +121,40 @@ h3
 {
     margin-right: 10px;
 }
+
+/*MENU2*/
+
+
+.menu2
+{
+    width: 100%;
+    height: auto;
+    background-color: #0000002e;
+}
+
+.conteneur3
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteneur3 div
+{
+   /*?????*/
+}
+
+.card1, .card2, .card3, .card4
+{
+  flex-direction: column;
+  border: 2px #b1b1b1;
+  border-radius: 8px;
+  box-shadow: 3px 3px 3px 3px #0000002e;
+  width: 350px;
+}
+
+.img_restaurant
+{
+    width: 100%;
+    object-fit: cover;
+}
