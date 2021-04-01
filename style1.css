@@ -12,6 +12,7 @@ body
 
 header
 {
+    /*??????*/
 }
 
 #logo
@@ -24,14 +25,9 @@ header
     height: 60px;
 }
 
-.main
-{
-    /*?????*/
-}
-
 .entete
 {
-
+  /*???*/
 }
 
 .icon
@@ -40,10 +36,13 @@ header
     align-items: center;
     display: flex;
     justify-content: center;
+    background-color: gray;
 }
 
-
-
+.conteneur 
+{
+    background-color: #d3d3d3;
+}
 
 h1, p
 {
