@@ -28,6 +28,7 @@ header
 .entete
 {
   width: 100%;
+  height: auto;
 }
 
 .conteneur 
@@ -45,6 +46,11 @@ header
     background-color: gray;
 }
 
+h1
+{
+    font-size: 30px;
+}
+
 h1, p
 {
     text-align: center;
@@ -57,16 +63,61 @@ h1, p
 
 .block 
 {
+    padding-bottom: 20px;
+    border: solid 3px hotpink;
     background-color: hotpink;
-    border-radius: 25%;
-    padding: 0px 10px 0 0;
+    border: hotpink 3px solid;
+    border-radius: 40px;
 }
 
 .block_text
 {
     text-align: center;
     color: white;
+    position: relative;
+    top: 10px;
 }
 
+/*MAIN*/
 
+.main
+{
+   
+}
 
+/*MENU*/
+
+.menu
+{
+background-color: white;
+height: auto;
+width: auto;
+}
+
+h3
+{
+    text-align: center;
+    font-size: 25px;
+}
+
+.conteneur2
+{
+    display: flex;
+    justify-content: center;
+}
+
+.search
+{
+    margin: 100px;
+    display: flex;
+    border: white 2px;
+    padding: 20px;
+    border-radius: 40px;
+    background-color: #f2f2f2;
+    box-shadow: 3px 3px 3px 3px #0000002e;
+}
+
+.conteneur_filtre
+{
+    margin-right: 10px;
+}
