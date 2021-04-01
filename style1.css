@@ -7,7 +7,7 @@ body
 {
     font-family: ;
     font-weight: normal;
-    width: 95%;
+    width: 99%;
 }
 
 header
@@ -27,7 +27,13 @@ header
 
 .entete
 {
-  /*???*/
+  width: 100%;
+}
+
+.conteneur 
+{
+    background-color: #d3d3d3;
+    height: auto;
 }
 
 .icon
@@ -39,17 +45,28 @@ header
     background-color: gray;
 }
 
-.conteneur 
-{
-    background-color: #d3d3d3;
-}
-
 h1, p
 {
     text-align: center;
 }
 
+.conteneur p 
+{
+    margin-left: 10px;
+}
+
+.block 
+{
+    background-color: hotpink;
+    border-radius: 25%;
+    padding: 0px 10px 0 0;
+}
+
 .block_text
 {
     text-align: center;
+    color: white;
 }
+
+
+
