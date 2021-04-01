@@ -1,0 +1,56 @@
+@font-face
+{
+
+}
+
+body
+{
+    font-family: ;
+    font-weight: normal;
+    width: 95%;
+}
+
+header
+{
+}
+
+#logo
+{
+    text-align: center;
+}
+
+#logo img
+{
+    height: 60px;
+}
+
+.main
+{
+    /*?????*/
+}
+
+.entete
+{
+
+}
+
+.icon
+{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+h1, p
+{
+    text-align: center;
+}
+
+.block_text
+{
+    text-align: center;
+}
