@@ -23,6 +23,7 @@ header
 #logo img
 {
     height: 60px;
+    color: white;
 }
 
 .entete
@@ -113,7 +114,7 @@ h3
 
 .search
 {
-    margin: 100px;
+    margin: 60px;
     display: flex;
     border: white 2px;
     padding: 20px;
@@ -134,22 +135,31 @@ h3
 {
     width: 100%;
     height: auto;
-    background-color: #0000002e;
+    background-color: #d3d3d3;
+}
+
+h4 
+{
+    font-size: 25px;
+    padding-top: 20px;
+    text-align: center;
 }
 
 .conteneur3
 {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     margin: 10px;
+    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .conteneur3 img
 {
-    height: 200px;
+    height: 60%;
     border-radius: 20px 20px 0 0;
+    object-fit: cover;
 }
 
 .conteneur3 div
@@ -163,14 +173,45 @@ h3
   border: 2px #b1b1b1;
   border-radius: 20px 20px 20px 20px;
   box-shadow: 3px 3px 3px 3px #0000002e;
-  width: 350px;
-  height: 300px;
+  width: 650px;
+  height: 270px;
   background-color: white;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  margin-top: 50px;
 }
+
+
 
 .img_restaurant
 {
     width: 100%;
     object-fit: cover;
 }
+
+
+footer 
+{
+ width: 100%;
+ background-color: black;
+}
+
+.conteneur4
+{
+  flex-direction: column;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.tittle1
+{
+    margin-left: 200px;
+    color: white;
+}
+
+.search1, .search2
+{
+ margin-left: 200px;
+ color: white;
+}
+
+
