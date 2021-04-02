@@ -155,13 +155,6 @@ h4
     justify-content: space-evenly;
 }
 
-.conteneur3 img
-{
-    height: 60%;
-    border-radius: 20px 20px 0 0;
-    object-fit: cover;
-}
-
 .conteneur3 div
 {
    /*?????*/
@@ -186,32 +179,48 @@ h4
 {
     width: 100%;
     object-fit: cover;
+    height: 60%;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
 }
 
 
 footer 
 {
  width: 100%;
- background-color: black;
+ background-color:#353535;
 }
 
 .conteneur4
 {
   flex-direction: column;
-  padding-top: 60px;
   padding-bottom: 60px;
 }
 
-.tittle1
+.logo1
 {
     margin-left: 200px;
-    color: white;
+    padding-top: 15px;
 }
 
-.search1, .search2
+ul 
+{
+    list-style: none;
+    margin-left: 160px;
+}
+
+li a 
+{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*.search1, .search2
 {
  margin-left: 200px;
+ margin-top: 15px;
  color: white;
-}
+}*/
 
 
