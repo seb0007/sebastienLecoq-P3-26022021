@@ -26,6 +26,11 @@ header
     color: white;
 }
 
+.main
+{
+   background-color: #fafafa;
+}
+
 .entete
 {
   width: 100%;
@@ -34,8 +39,10 @@ header
 
 .conteneur 
 {
-    background-color: #d3d3d3;
+    background-color: #fafafa;
     height: auto;
+    text-align: center;
+    justify-content: center;
 }
 
 .icon
@@ -45,6 +52,11 @@ header
     display: flex;
     justify-content: center;
     background-color: gray;
+}
+
+.icon p 
+{
+    margin-left: 10px;
 }
 
 h1
@@ -57,48 +69,30 @@ h1, p
     text-align: center;
 }
 
-.conteneur p 
+.block5
 {
-    margin-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-.conteneur1
+.first
 {
-
+   border: solid 2px hotpink;
+   width: 200px;
+   padding: 20px;
+   background-color: hotpink;
+   border-radius: 40px;
+   color: white;
 }
 
-.block 
-{
-    padding-bottom: 20px;
-    border: solid 3px hotpink;
-    background-color: hotpink;
-    border: hotpink 3px solid;
-    border-radius: 40px;
-    
-}
-
-.block_text
-{
-    text-align: center;
-    color: white;
-    position: relative;
-    top: 10px;
-}
-
-/*MAIN*/
-
-.main
-{
-   
-}
 
 /*MENU*/
 
 .menu
 {
-background-color: white;
-height: auto;
-width: auto;
+    background-color: white;
+    height: auto;
+    width: auto;
 }
 
 h3
@@ -117,17 +111,27 @@ h3
 {
     margin: 60px;
     display: flex;
+    cursor: pointer;
+}
+
+.conteneur_filtre
+{
+    margin-right: 100px;
     border: white 2px;
     padding: 20px;
     border-radius: 40px;
     background-color: #f2f2f2;
     box-shadow: 3px 3px 3px 3px #0000002e;
+    display: flex;
 }
 
-.conteneur_filtre
+.conteneur_filtre:hover
 {
-    margin-right: 10px;
+   background-color: violet;
 }
+
+.tittle
+{margin-left: 15px;}
 
 /*MENU2*/
 
@@ -136,12 +140,11 @@ h3
 {
     width: 100%;
     height: auto;
-    background-color: #d3d3d3;
 }
 
 h4 
 {
-    font-size: 25px;
+    font-size: 30px;
     padding-top: 20px;
     text-align: center;
 }
@@ -161,10 +164,16 @@ h4
   font-size: 17px;
 }
 
+.conteneur3 p
+{
+    margin-left: 10px;
+}
+
 .conteneur3 p1
 {
     font-size: 20px;
     margin-top: 20px;
+    margin-left: 10px;
 }
 
 .heart
@@ -222,10 +231,17 @@ footer
   display: flex;
 }
 
-.conteneur4 .logo1
+
+.logo1
 {
     margin-left: 200px;
     padding-top: 15px;
+    color: white;
+    background-image: ;
+}
+
+.logo1:hover
+{
     color: white;
 }
 
