@@ -61,6 +61,11 @@ h1, p
     margin-left: 10px;
 }
 
+.conteneur1
+{
+
+}
+
 .block 
 {
     padding-bottom: 20px;
@@ -137,6 +142,14 @@ h3
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.conteneur3 img
+{
+    height: 200px;
+    border-radius: 20px 20px 0 0;
 }
 
 .conteneur3 div
@@ -148,9 +161,12 @@ h3
 {
   flex-direction: column;
   border: 2px #b1b1b1;
-  border-radius: 8px;
+  border-radius: 20px 20px 20px 20px;
   box-shadow: 3px 3px 3px 3px #0000002e;
   width: 350px;
+  height: 300px;
+  background-color: white;
+  margin-bottom: 10px;
 }
 
 .img_restaurant
