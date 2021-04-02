@@ -151,13 +151,38 @@ h4
     align-items: center;
     flex-wrap: wrap;
     margin: 10px;
-    justify-content: center;
     justify-content: space-evenly;
 }
 
-.conteneur3 div
+.conteneur3 p
 {
-   /*?????*/
+  text-align: start;
+  font-size: 17px;
+}
+
+.conteneur3 p1
+{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.heart
+{
+    text-align: end;
+    position: relative;
+    margin-right: 20px;
+    bottom: 40px;
+    font-size: 25px;
+}
+
+.heart:hover
+{
+    background-color: #FF79DA;
+}
+
+.button 
+{
+   text-align: end;
 }
 
 .card1, .card2, .card3, .card4
@@ -167,19 +192,17 @@ h4
   border-radius: 20px 20px 20px 20px;
   box-shadow: 3px 3px 3px 3px #0000002e;
   width: 650px;
-  height: 270px;
+  height: 300px;
   background-color: white;
   margin-bottom: 20px;
   margin-top: 50px;
 }
 
-
-
 .img_restaurant
 {
     width: 100%;
     object-fit: cover;
-    height: 60%;
+    height: 65%;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
 }
@@ -195,12 +218,14 @@ footer
 {
   flex-direction: column;
   padding-bottom: 60px;
+  display: flex;
 }
 
-.logo1
+.conteneur4 .logo1
 {
     margin-left: 200px;
     padding-top: 15px;
+    color: white;
 }
 
 ul 
@@ -216,11 +241,10 @@ li a
     list-style: none;
 }
 
-/*.search1, .search2
+.footer_icon
 {
- margin-left: 200px;
- margin-top: 15px;
- color: white;
-}*/
+    margin-right: 20px;
+    width: 1rem;
+}
 
 
