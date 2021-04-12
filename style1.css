@@ -186,7 +186,6 @@ h4
     flex-wrap: wrap;
     margin: 10px;
     justify-content: space-evenly;
-    width: 100%;
     padding-bottom: 50px;
 }
 
@@ -313,6 +312,7 @@ li a
     {
         flex-direction: column;
         justify-content: space-between;
+        margin-left: 0px;
     }
 
     .conteneur_filtre
@@ -321,6 +321,19 @@ li a
         width: 100%;
         justify-content: center;
     }
+
+    .card1, .card2, .card3, .card4
+    {
+        width: 100%;
+    }
+     
+    .new{
+
+    
+    position: relative;
+    left: 280px;
+    bottom: 170px;
+     }
 }
 
 
