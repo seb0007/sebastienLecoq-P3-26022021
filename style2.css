@@ -1,0 +1,39 @@
+body
+{
+    margin: 0;
+    
+}
+
+.header
+{
+  width: 100%;
+}
+
+.header_arrow
+{
+  color: black;
+  position: absolute;
+}
+
+.logo
+{
+   text-align: center;
+   font-family: 'Shrikhand', cursive;
+   font-size: 40px;
+   
+}
+
+
+.container2
+{
+    width: 100%;
+}
+
+.img
+{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+
