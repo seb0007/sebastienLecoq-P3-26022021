@@ -1,6 +1,7 @@
 @font-face
 {
-
+font-family: "roboto", sans-serif;
+font-weight: normal
 }
 
 body
@@ -10,12 +11,6 @@ body
     width: 99%;
 }
 
-
-
-header
-{
-    /*??????*/
-}
 
 #logo
 {
@@ -115,7 +110,7 @@ h3
 .conteneur2
 {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .search
@@ -205,6 +200,7 @@ h4
     font-size: 20px;
     margin-top: 20px;
     margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .heart
@@ -239,6 +235,7 @@ h4
 .card1, .card2, .card3, .card4
 {
   flex-direction: column;
+  justify-content: center;
   border: 2px #b1b1b1;
   border-radius: 20px 20px 20px 20px;
   box-shadow: 3px 3px 3px 3px #0000002e;
@@ -248,12 +245,12 @@ h4
   margin-bottom: 20px;
   margin-top: 50px;
   flex-wrap: wrap;
+  cursor: pointer;
 }
 
 .img_restaurant
 {
     width: 100%;
-    object-fit: cover;
     height: 65%;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
@@ -308,11 +305,18 @@ li a
 
 @media screen and ( max-width: 1313px)
 {
+
+    body 
+    {
+       width: 100%;
+    }
+
     .search
     {
         flex-direction: column;
         justify-content: space-between;
         margin-left: 0px;
+        flex-wrap: wrap;
     }
 
     .conteneur_filtre
@@ -333,6 +337,16 @@ li a
     position: relative;
     left: 280px;
     bottom: 170px;
+     }
+
+     .number1, .number3
+     {
+        right: 100px;
+     }
+
+     .number2
+     {
+         right: 105px;
      }
 }
 
