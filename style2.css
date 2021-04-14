@@ -1,18 +1,23 @@
 body
 {
     margin: 0;
-    
 }
 
 .header
 {
   width: 100%;
+  height: auto;
 }
 
-.header_arrow
+.header_arrow 
 {
   color: black;
   position: absolute;
+  left: 20px;
+  top: 40px;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
 }
 
 .logo
@@ -20,9 +25,12 @@ body
    text-align: center;
    font-family: 'Shrikhand', cursive;
    font-size: 40px;
-   
 }
 
+.carte
+{
+  width: 100%;
+}
 
 .container2
 {
@@ -36,4 +44,52 @@ body
     object-fit: cover;
 }
 
+.main1
+{
+  background-color: #f6f6f6;
+  height: auto;
+}
 
+.header1
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.container3
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+h3
+{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+}
+
+.bloc1, .bloc2, .bloc3
+{
+  width: 20%;
+}
+
+.card1, .card2, .card3
+{
+  background-color: white;
+  padding: 10px;
+  border-radius: .75rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.card2, .card3
+{
+  margin-top: 20px;
+}
+
+.info
+{
+  display: flex;
+  justify-content: space-between;
+}

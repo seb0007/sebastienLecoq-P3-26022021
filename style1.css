@@ -1,6 +1,7 @@
 @font-face
 {
 font-family: "roboto", sans-serif;
+font-family: 'Shrikhand', cursive;
 font-weight: normal
 }
 
@@ -188,11 +189,7 @@ h4
 {
   text-align: start;
   font-size: 17px;
-}
-
-.conteneur3 p
-{
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .conteneur3 p1
@@ -203,23 +200,25 @@ h4
     font-family: 'Roboto', sans-serif;
 }
 
+.footer 
+{
+  display: flex;
+}
+
 .heart
 {
-    text-align: end;
-    position: relative;
-    margin-right: 20px;
-    bottom: 40px;
-    font-size: 25px;
+    display: flex;
+   
+    top: 20px;
+    margin-left: 250px;
+    font-weight: 600;
 }
 
 .heart:hover
 {
-    color: #FF79DA;
-}
-
-.fa-heart
-{
-    font-weight: 900;
+    color: #FF79DA; 
+    transition: 250ms;
+    
 }
 
 .new
