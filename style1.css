@@ -91,6 +91,8 @@ h1, p
 .first:hover
 {
     box-shadow: 10px 10px 10px 10px;
+    background-color: black;
+    transition: 300ms;
 }
 
 
