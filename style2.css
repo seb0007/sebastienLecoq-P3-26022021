@@ -1,6 +1,7 @@
 body
 {
     margin: 0;
+    width: 100%;
 }
 
 .header
@@ -46,8 +47,13 @@ body
 
 .main1
 {
-  background-color: #f6f6f6;
+  /*background-color: #f6f6f6;*/
   height: auto;
+}
+
+.aa 
+{
+  background-color: #f6f6f6;
 }
 
 .header1
@@ -55,6 +61,7 @@ body
   display: flex;
   align-items: center;
   justify-content: space-between;
+
 }
 
 
@@ -81,6 +88,8 @@ h3
   padding: 10px;
   border-radius: .75rem;
   font-family: 'Roboto', sans-serif;
+  box-shadow: 5px 5px 5px 5px #d9d9d9;
+  cursor: pointer;
 }
 
 .card2, .card3
@@ -92,4 +101,78 @@ h3
 {
   display: flex;
   justify-content: space-between;
+}
+
+.footer1
+{
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.button
+{
+  text-align: center;
+  cursor: pointer;
+  font-size: 1.1rem;
+  width: 180px;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 40px;
+  color: white;
+  font-size: 1.4rem;
+  background-image: linear-gradient(0deg,rgba(140,86,220,.9),rgba(255,120,220,.7));
+  font-family: 'Roboto', sans-serif;
+  margin-top: 20px;
+}
+
+.button:hover
+{
+  box-shadow: 5px 5px 5px 5px #d9d9d9;
+}
+
+footer 
+{
+ width: 100%;
+ background-color:#353535;
+}
+
+.conteneur4
+{
+  flex-direction: column;
+  padding-bottom: 60px;
+  display: flex;
+}
+
+
+.titre2
+{
+    padding-left: 40px;
+    padding-top: 15px;
+    color: white;
+    font-family: 'Shrikhand', cursive;
+    font-size: 20px;
+}
+
+.logo1:hover
+{
+    color: white;
+}
+
+ul 
+{
+    list-style: none;
+}
+
+li a 
+{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer_icon
+{
+    margin-right: 20px;
+    width: 1rem;
 }
