@@ -209,13 +209,20 @@ h4
     right: 30px;
     bottom: 30px;
     font-weight: 600;
+    background-color: #f6f6f6;
+    align-items: center;
+}
+
+.heart_1, .heart_2
+{
+  position: absolute;
+  right: 0px;
 }
 
 .heart:hover
 {
     color: #FF79DA; 
     transition: 250ms;
-    
 }
 
 .new

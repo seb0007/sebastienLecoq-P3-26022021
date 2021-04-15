@@ -69,6 +69,12 @@ body
   right: 30px;
 }
 
+.heart_2, .heart_3
+{
+  position: absolute;
+  right: 0px;
+}
+
 h2
 {
   margin-left: 20px;
