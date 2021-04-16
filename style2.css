@@ -2,6 +2,8 @@ body
 {
     margin: 0;
     width: 100%;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .header
@@ -133,6 +135,7 @@ hr
 {
   display: flex;
   justify-content: space-between;
+
 }
 
 .footer1

@@ -4,6 +4,7 @@ body
 {
     font-weight: normal;
     width: 99%;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -135,11 +136,13 @@ h3
 {
     background-color: #e4d5f6;
     color: black;
+    color: #9356dc;
 }
 
 .tittle
 {
     margin-left: 15px;
+    color: black;
 }
 
 .number1, .number2, .number3
