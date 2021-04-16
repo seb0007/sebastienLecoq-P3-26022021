@@ -72,6 +72,13 @@ body
   right: 30px;
 }
 
+.hearts:hover
+{
+    color: #FF79DA; 
+    transition: 250ms;
+    cursor: pointer;
+}
+
 .heart_2, .heart_3
 {
   position: absolute;
