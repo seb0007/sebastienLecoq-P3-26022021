@@ -70,19 +70,28 @@ body
 {
   position: absolute;
   right: 30px;
+  background-color: #f6f6f6;
 }
 
 .hearts:hover
 {
-    color: #FF79DA; 
     transition: 250ms;
     cursor: pointer;
+    color: #FF79DA; 
 }
 
 .heart_2, .heart_3
 {
   position: absolute;
   right: 0px;
+  background-color: #f6f6f6;
+}
+
+.heart_2:hover, .heart_3:hover
+{
+  background-image: linear-gradient(0deg,rgba(140,86,220,.9),rgba(255,120,220,.7));
+  mix-blend-mode: lighten;
+  background-color: white;
 }
 
 h2
@@ -123,6 +132,16 @@ hr
   position: relative;
 }
 
+.bloc1
+{
+  margin-left: 10px;
+}
+
+.bloc3
+{
+  margin-right: 10px;
+}
+
 .card1, .card2, .card3
 {
   background-color: white;
@@ -131,6 +150,11 @@ hr
   font-family: 'Roboto', sans-serif;
   box-shadow: 5px 5px 5px 5px #d9d9d9;
   cursor: pointer; 
+}
+
+.card1:hover, .card2:hover, .card3:hover
+{
+  transform: scale(1.05);
 }
 
 .card2, .card3
