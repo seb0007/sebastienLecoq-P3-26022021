@@ -148,6 +148,17 @@ h3
     color: black;
 }
 
+.icone
+{
+    margin-right: 15px;
+}
+
+.tittle1
+{
+    margin-right: 15px;
+    align-items: center;
+}
+
 .number1, .number2, .number3
 {
    background-color: #9356dc;
@@ -322,7 +333,7 @@ li a
     width: 1rem;
 }
 
-/*@media screen and ( max-width: 1313px)
+@media screen and ( max-width: 1313px)
 {
 
     body 
@@ -333,7 +344,7 @@ li a
     .search
     {
         flex-direction: column;
-        justify-content: space-between;
+        /*justify-content: space-between;*/
         margin-left: 0px;
         flex-wrap: wrap;
     }
@@ -351,16 +362,11 @@ li a
     }
      
 
-     .number1, .number3
+     .number1, .number2, .number3
      {
         right: 100px;
      }
 
-     .number2
-     {
-         right: 100px;
-
-     }
-}*/
+}
 
 
