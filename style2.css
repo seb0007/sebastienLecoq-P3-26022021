@@ -61,6 +61,7 @@ body
   align-items: center;
   background-color:  #f6f6f6;
   position: relative;
+  border-radius: 1.5rem 1.5rem 0 0;
 }
 
 .hearts
