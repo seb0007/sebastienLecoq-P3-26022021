@@ -52,7 +52,7 @@ body
   position: relative;
   z-index: 1;
   margin-top: -4rem;
-  border-radius: 2rem 2rem 0 0;
+  border-radius: 2rem 2rem 0 0;/*?????*/
 }
 
 .header1
@@ -94,11 +94,23 @@ h3
   font-size: 1.5rem;
 }
 
+hr
+{
+  width: 10%;
+  position: absolute;
+  top: 60px;
+  color: #99e2d0;
+  height: 4px;
+  background-color: #99e2d0;
+  border: none;
+}
+
 .bloc1, .bloc2, .bloc3
 {
   width: 30%;
-  padding: 20px;
+  padding: 10px;
   box-sizing: border-box;
+  position: relative;
 }
 
 .card1, .card2, .card3

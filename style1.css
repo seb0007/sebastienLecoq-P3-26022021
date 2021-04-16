@@ -307,7 +307,7 @@ li a
     width: 1rem;
 }
 
-@media screen and ( max-width: 1313px)
+/*@media screen and ( max-width: 1313px)
 {
 
     body 
@@ -346,6 +346,6 @@ li a
          right: 100px;
 
      }
-}
+}*/
 
 
