@@ -62,11 +62,18 @@ body
   position: relative;
   border-radius: 1.5rem 1.5rem 0 0;
 }
+h2
+{
+  margin-top: 30px;
+  margin-left: 20px;
+  font-family: 'Shrikhand', cursive;
+}
 
 .hearts
 {
   position: absolute;
-  right: 30px;
+  right: 100px;
+  top:30px;
   background-color: #f6f6f6;
 }
 
@@ -91,15 +98,9 @@ body
   background-color: white;
 }
 
-h2
-{
-  margin-left: 20px;
-}
-
-
 .container3
 {
-  display: flex;
+  /*display: flex;*/
   justify-content: space-between;
   box-sizing: border-box;
 }
@@ -112,7 +113,7 @@ h3
 
 hr
 {
-  width: 10%;
+  width: 3%;
   position: absolute;
   top: 60px;
   color: #99e2d0;
@@ -123,21 +124,17 @@ hr
 
 .bloc1, .bloc2, .bloc3
 {
-  width: 30%;
+  width: 80%;
   padding: 10px;
   box-sizing: border-box;
   position: relative;
 }
 
-.bloc1
+.bloc1, .bloc2, .bloc3
 {
-  margin-left: 10px;
+  margin-left: 70px;
 }
 
-.bloc3
-{
-  margin-right: 10px;
-}
 
 .card1, .card2, .card3
 {
@@ -179,6 +176,7 @@ hr
   height: auto;
   display: flex;
   justify-content: center;
+  padding-bottom: 10px;
 }
 
 .button
@@ -248,10 +246,14 @@ li a
     width: 1rem;
 }
 
-@media screen and ( max-width: 1140)
+@media screen and ( max-width: 500px)
 {
-  .container3
+  .bloc1, .bloc2, .bloc3
   {
-     
+    margin-left: 30px;
+    box-sizing: border-box;
+    width: 90%;
   }
+
+  
 }
