@@ -150,6 +150,13 @@ hr
   font-family: 'Roboto', sans-serif;
   box-shadow: 5px 5px 5px 5px #d9d9d9;
   cursor: pointer; 
+  height: 70px;
+}
+
+.card1 p, .card2 p, .card3 p 
+{
+  position: relative;
+  bottom: 10px;
 }
 
 .card1:hover, .card2:hover, .card3:hover
@@ -166,7 +173,8 @@ hr
 {
   display: flex;
   justify-content: space-between;
-
+  position: relative;
+  bottom: 20px;
 }
 
 .footer1
@@ -241,4 +249,13 @@ li a
 {
     margin-right: 20px;
     width: 1rem;
+}
+
+@media screen and ( max-width: 1030)
+{
+  .container3
+  {
+   
+    flex-wrap: wrap;
+  }
 }
