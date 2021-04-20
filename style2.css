@@ -136,6 +136,7 @@ hr
 }
 
 
+
 .card1, .card2, .card3
 {
   background-color: white;
@@ -148,6 +149,8 @@ hr
   position: relative;
   transition: all 1.5s;
 }
+
+
 
 .card1 p, .card2 p, .card3 p 
 {
