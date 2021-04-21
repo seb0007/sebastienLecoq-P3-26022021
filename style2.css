@@ -137,7 +137,7 @@ hr
 
 
 
-.card1, .card2, .card3
+.card1, .card2, .card3, .card4
 {
   background-color: white;
   padding: 10px;
@@ -152,7 +152,7 @@ hr
 
 
 
-.card1 p, .card2 p, .card3 p 
+.card1 p, .card2 p, .card3 p, .card4 p
 {
   position: relative;
   bottom: 10px;
@@ -163,7 +163,7 @@ hr
   transform: scale(1.05);
 }
 
-.card2, .card3
+.card2, .card3, .card4
 {
   margin-top: 20px;
 }
