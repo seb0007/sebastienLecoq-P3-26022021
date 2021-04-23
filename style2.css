@@ -145,6 +145,7 @@ hr
   cursor: pointer; 
   height: 70px;
   position: relative;
+  overflow: hidden;
   transition: all 1.5s;
   animation: apparition 0.8s ease-in;
 }
@@ -169,6 +170,13 @@ hr
 .card1:hover, .card2:hover, .card3:hover
 {
   transform: scale(1.05);
+  padding-right: 100px;
+  transition: 0.8s;
+}
+
+.card1:hover .animation, .card2:hover .animation, .card3:hover .animation
+{
+   right: 0px;
 }
 
 .card2, .card3, .card4
@@ -182,29 +190,28 @@ hr
   justify-content: space-between;
   position: relative;
   bottom: 20px;
+  box-sizing: inherit;
+}
+
+.description
+{
+  box-sizing: inherit;
 }
 
 .animation
 {
   background-color: #99e2d0;
   position: absolute;
-  right: 0px;
-  top: 0px;
-  display: flex;
-  width: 15%;
-  justify-content: center;
-  align-items: center;
-  border-radius: 0 .75rem .75rem 0;
-  left: 100%;
+  top: 0;
+  padding: 0 2rem;
+  right: -80px;
   height: 100%;
-  animation: apparition1 1s ease-in-out;
+  display: flex;
+  align-items: center;
+  transition: 1s;
+  border-radius: 0 .75rem .75rem 0;
 }
 
-.animation:hover
-{
-  transform: translateX(-100%);
-  transition: 0.8s ease-in;
-}
 
 .animation1
 {
@@ -215,7 +222,7 @@ hr
 
 .animation1:hover
 {
-  transform: rotate();
+  transform: rotate(360deg);
 }
 
 .footer1
