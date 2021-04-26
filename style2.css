@@ -218,7 +218,6 @@ hr
   border-radius: 0 .75rem .75rem 0;
 }
 
-
 .animation1
 {
   background-color: #99e2d0;
@@ -226,7 +225,6 @@ hr
   cursor: pointer;
   transform: rotate(360deg);
   transition: transform 1s;
-
 }
 
 .animation:hover .animation1
@@ -235,8 +233,11 @@ hr
   transition: transform 1s;
 }
 
-
-
+.card1:hover .animation1
+{
+  transform: rotate(360deg);
+  transition: transform 2s;
+}
 
 .footer1
 {
