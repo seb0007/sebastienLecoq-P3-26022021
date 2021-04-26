@@ -16,13 +16,13 @@ body
 .search_loader
 {
    width: 100%;
-   height: 100vh;
+   height: 100%;
    position: fixed;
-   z-index: 1000;
+   z-index: 10;
    display: flex;
    flex-direction: column;
    justify-content: center;
-   opacity: 96%;
+   opacity: 90%;
    align-items: center;
    background: linear-gradient(306deg, #9356dc, #99e2d0);
    animation: entrance 3s cubic-bezier(0.39, 0.570, 0.565, 1) forwards;
@@ -31,7 +31,7 @@ body
 @keyframes entrance
 {
     0% {
-        transform: scaleX(0.4);
+        transform: scaleX(0.5);
     }
 
     100% {
@@ -40,12 +40,12 @@ body
     }
 }
 
-.search_loader p{
+.search_loader p
+{
     font-family: "Shrikhand", sans-serif;
     color: #481a7f;
     display: flex;
     justify-content: center;
-    border: transparent;
     font-size: 3rem;
 }
 
@@ -55,7 +55,7 @@ body
    color: #c1ede2;
    display: flex;
    justify-content: center;
-   border: transparent;
+  /* border: transparent;*/
    font-size: 3rem
 }
 #logo
