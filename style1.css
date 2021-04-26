@@ -55,9 +55,17 @@ body
    color: #c1ede2;
    display: flex;
    justify-content: center;
-  /* border: transparent;*/
    font-size: 3rem
 }
+
+.rotation
+{
+   padding: 20px;
+   animation: rotation 600ms ease-in-out infinite;
+}
+
+
+
 #logo
 {
     text-align: center;
@@ -67,6 +75,7 @@ body
 {
     height: 40px;
     color: white;
+    align-items: center;
 }
 
 main
