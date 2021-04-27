@@ -81,7 +81,6 @@ body
 main
 {
    background-color: #fafafa;
-   font-family: 'Roboto', sans-serif;
 }
 
 .entete
@@ -166,7 +165,6 @@ h3
     justify-content: center;
     display: flex;
     font-size: 25px;
-    font-family: 'Roboto', sans-serif;
     padding-top: 30px;
 }
 
@@ -235,7 +233,6 @@ h3
    color: white;
    position: absolute;
    left: -13px;
-   font-family: 'Roboto', sans-serif;
 }
 
 
