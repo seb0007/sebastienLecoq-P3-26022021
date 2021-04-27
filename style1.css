@@ -130,6 +130,7 @@ h1, p
     cursor: pointer;
 }
 
+
 .first
 {
    width: 200px;
@@ -144,9 +145,10 @@ h1, p
 
 .first:hover
 {
-    box-shadow: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 5px 5px #d9d9d9;
     background-color: black;
-    transition: 300ms;
+   /* transform: scale(1.5);*/
+    transition: 1s;
 }
 
 
