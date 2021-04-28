@@ -145,7 +145,6 @@ h1, p
 .first:hover
 {
     box-shadow: 5px 5px 5px 5px #d9d9d9;
-    background-color: black;
     transition: 1s;
 }
 
