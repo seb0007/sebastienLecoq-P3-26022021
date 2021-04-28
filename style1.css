@@ -130,7 +130,7 @@ h1, p
 }
 
 
-.first
+.first  
 {
    width: 200px;
    font-weight: 600;
@@ -146,7 +146,6 @@ h1, p
 {
     box-shadow: 5px 5px 5px 5px #d9d9d9;
     background-color: black;
-   /* transform: scale(1.5);*/
     transition: 1s;
 }
 

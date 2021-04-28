@@ -263,6 +263,12 @@ hr
   transition: 1s;
 }
 
+.button a
+{
+  text-decoration: none;
+  color: white;
+}
+
 footer 
 {
  width: 100%;
