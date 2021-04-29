@@ -122,16 +122,13 @@ hr
 
 .bloc1, .bloc2, .bloc3
 {
-  width: 80%;
+  width: 50%;
+  margin: 0 auto;
   padding: 10px;
   box-sizing: border-box;
   position: relative;
 }
 
-.bloc1, .bloc2, .bloc3
-{
-  margin-left: 70px;
-}
 
 .card1, .card2, .card3, .card4
 {
@@ -166,7 +163,7 @@ hr
 
 .card1:hover, .card2:hover, .card3:hover
 {
-  transform: scale(1.05);
+  /*transform: scale(1.05);*/
   padding-right: 100px;
   transition: 0.8s;
 }
@@ -324,7 +321,5 @@ li a
     width: 95%;
   }
     
-
-  
   
 }
