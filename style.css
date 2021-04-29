@@ -1,0 +1,445 @@
+
+body
+{
+    font-weight: normal;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+
+
+.loader
+{
+    margin: auto;
+}
+
+.search_loader
+{
+   width: 100%;
+   height: 100%;
+   position: fixed;
+   z-index: 10;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   opacity: 100%;
+   align-items: center;
+   background: linear-gradient(306deg, #9356dc, #99e2d0);
+   animation: entrance 3s cubic-bezier(0.39, 0.570, 0.565, 1) forwards;
+}
+
+@keyframes entrance
+{
+    0% {
+        transform: scaleX(1);
+    }
+
+    100% {
+        transform: scaleX(0);
+        visibility: hidden;
+    }
+}
+
+.search_loader p
+{
+    font-family: "Shrikhand", sans-serif;
+    color: #481a7f;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.loader_icon
+{
+   font-family: "Shrikhand", sans-serif;
+   color: #c1ede2;
+   display: flex;
+   justify-content: center;
+   font-size: 3rem
+}
+
+.rotation
+{
+   padding: 20px;
+   animation: rotation 600ms ease-in-out infinite;
+}
+
+
+
+#logo
+{
+    text-align: center;
+}
+
+#logo img
+{
+    height: 40px;
+    color: white;
+    align-items: center;
+}
+
+main
+{
+   background-color: #fafafa;
+}
+
+.entete
+{
+  width: 100%;
+  height: auto;
+}
+
+.conteneur 
+{
+    background-color: #fafafa;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.icon
+{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #eaeaea;
+}
+
+.icon p 
+{
+    margin-left: 10px;
+}
+
+h1
+{
+    font-size: 30px;
+}
+
+h1, p
+{
+    text-align: center;
+}
+
+.block_first
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    cursor: pointer;
+}
+
+
+.first  
+{
+   width: 200px;
+   font-weight: 600;
+   padding: 20px;
+   border-radius: 40px;
+   color: white;
+   font-size: 1.4rem;
+   background-image: linear-gradient(0deg,rgba(140,86,220,.9),rgba(255,120,220,.7));
+   font-size: 1rem;
+}
+
+.first:hover
+{
+    box-shadow: 5px 5px 5px 5px #d9d9d9;
+    transition: 1s;
+}
+
+
+/*MENU*/
+
+.menu
+{
+    background-color: white;
+    height: auto;
+    width: auto;
+}
+
+h3
+{
+    justify-content: center;
+    display: flex;
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+.conteneur2
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.search
+{
+    margin: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.conteneur_filtre
+{
+    border: white 2px;
+    padding: 20px;
+    padding-left: 30px;
+    border-radius: 40px;
+    background-color: #f2f2f2;
+    box-shadow: 3px 3px 3px 3px #0000002e;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    cursor: pointer;
+    position: relative;
+}
+
+.conteneur_filtre:hover
+{
+    background-color: #e4d5f6;
+    color: black;
+    color: #9356dc;
+    transition: 450ms;
+    transform: scale (1.1);
+}
+
+.tittle
+{
+    margin-left: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+.icone
+{
+    margin-right: 15px;
+}
+
+.tittle1
+{
+    margin-right: 15px;
+    align-items: center;
+}
+
+.number1, .number2, .number3
+{
+   background-color: #9356dc;
+   border: 1px solid #9356dc;
+   border-radius: 50%;
+   padding: 4px 8px 4px 8px;
+   color: white;
+   position: absolute;
+   left: -13px;
+}
+
+
+/*MENU2*/
+
+
+.menu2
+{
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap ;
+}
+
+h4 
+{
+    font-size: 30px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.conteneur3
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+.conteneur3 p
+{
+  text-align: start;
+  font-size: 17px;
+  margin-left: 10px;
+}
+
+.conteneur3 p1
+{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card1, .card2, .card3, .card4
+{
+  flex-direction: column;
+  justify-content: center;
+  border: 2px #b1b1b1;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 3px 3px 3px 3px #0000002e;
+  width: 700px;
+  height: 300px;
+  background-color: white;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  cursor: pointer;
+  position: relative;
+}
+
+.card1 a, .card2 a, .card3 a, .card4 a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.img_restaurant
+{
+    width: 100%;
+    height: 65%;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+
+.heart
+{
+    display: flex;
+    position: absolute;
+    right: 30px;
+    bottom: 50px;
+    font-weight: 600;
+    background-color: #f6f6f6;
+    align-items: center;
+}
+
+.heart:hover
+{
+  color: #c148d18a;
+  transition: 1s;
+}
+
+.heart_1, .heart_2
+{
+  position: absolute;
+  right: 0px;
+  background-color:white;
+}
+
+.heart_1:hover, .heart_2:hover
+{
+  background-image: linear-gradient(0deg,rgba(160,90,240,.9),rgba(255,120,220,.7));
+  mix-blend-mode: lighten;
+  background-color: white;
+  transition: 1s;
+}
+
+.new
+{
+    background-color: #99e2d0;
+    color: black;
+    padding: 10px;
+    position: absolute;
+    right: 30px;
+    top: 25px;
+}
+
+.info
+{
+    position: relative;
+    top: 10px;
+}
+
+.footer 
+{
+  display: flex;
+}
+
+/*FOOTER*/
+
+footer 
+{
+ width: 100%;
+ background-color:#353535;
+}
+
+.conteneur4
+{
+  flex-direction: column;
+  padding-bottom: 60px;
+  display: flex;
+}
+
+
+.titre2
+{
+    padding-left: 40px;
+    padding-top: 15px;
+    color: white;
+    font-family: 'Shrikhand', cursive;
+    font-size: 20px;
+}
+
+.logo1:hover
+{
+    color: white;
+}
+
+ul 
+{
+    list-style: none;
+}
+
+li a 
+{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer_icon
+{
+    margin-right: 20px;
+    width: 1rem;
+}
+
+@media screen and ( max-width: 1420px)
+{
+    .card1, .card2, .card3, .card4
+    {
+        width: 100%;
+    }
+}
+
+@media screen and ( max-width: 1313px)
+{
+
+    body 
+    {
+       width: 100%;
+    }
+
+    .search
+    {
+        flex-direction: column;
+        margin-left: 0px;
+        flex-wrap: wrap;
+    }
+
+    .conteneur_filtre
+    {
+        margin-top: 30px;
+        width: 100%;
+        justify-content: center;
+    }
+    
+
+}
+
+
+
