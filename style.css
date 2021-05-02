@@ -61,7 +61,6 @@ body
 .rotation
 {
    padding: 20px;
-   animation: rotation 600ms ease-in-out infinite;
 }
 
 

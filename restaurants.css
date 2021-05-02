@@ -139,7 +139,7 @@ hr
   height: 70px;
   position: relative;
   overflow: hidden;
-  transition: all 1.5s;
+  /*transition: all 1.5s;*/
   animation: apparition 2s ease-in;
 }
 
