@@ -313,6 +313,14 @@ li a
     width: 1rem;
 }
 
+@media screen and ( max-width: 768px)
+{
+  .hearts
+  {
+    right: 50px;
+  }
+}
+
 @media screen and ( max-width: 650px)
 {
   .bloc1, .bloc2, .bloc3
