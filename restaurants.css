@@ -160,7 +160,7 @@ hr
   bottom: 10px;
 }
 
-.card1:hover, .card2:hover, .card3:hover
+.card1:hover, .card2:hover, .card3:hover, .card4:hover
 {
   /*transform: scale(1.05);*/
   padding-right: 100px;
@@ -250,6 +250,7 @@ hr
   font-size: 1.4rem;
   background-image: linear-gradient(0deg,rgba(140,86,220,.9),rgba(255,120,220,.7));
   margin-top: 20px;
+  background-color: #686868;
 }
 
 .button:hover
@@ -257,6 +258,7 @@ hr
   box-shadow: 5px 5px 5px 5px #d9d9d9;
   transform: scale(1.1);
   transition: 1s;
+  background-color: white;
 }
 
 .button a
