@@ -443,5 +443,20 @@ li a
 
 }
 
+@media screen and ( max-width: 1420px)
+{
+
+.search
+{
+    margin-left: 30px;
+}
+
+    .conteneur_filtre
+    {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
 
 
