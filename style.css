@@ -352,6 +352,11 @@ h4
     top: 10px;
 }
 
+.info span 
+{
+    margin-left: 10px;
+}
+
 .footer 
 {
   display: flex;
