@@ -187,12 +187,14 @@ hr
   box-sizing: inherit;
 }
 
-.suspension
+.card1 p:nth-child(1), .card2 p:nth-child(1), .card3 p:nth-child(1), .card4 p:nth-child(1), .suspension
 {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
 }
+
+
 
 .description
 {
